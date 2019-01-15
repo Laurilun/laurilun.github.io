@@ -11,6 +11,17 @@ $(document).ready(function () {
   });
 	
 	
+	$(function(){
+  if($('body').is('.project-page')){
+			$(".logo").toggleClass("turned-off");
+			$(".contact-button").toggle(100);
+			$(".intro").toggle(100);
+			$(".speech-bubble").toggle(300);
+  }
+});
+
+	
+	
 		$(".email-link").on("click", function(){
     	$(".email-address").toggleClass("invisible text-trans");
   });

@@ -4,7 +4,7 @@
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class= "project-page">
   <!-- Latest compiled and minified bootstrap CSS -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
   <!-- Own CSS -->
@@ -38,15 +38,15 @@
 	
 <!-- navigointi -->
 <nav class="nav">
-	<div class="container borders">
+	<div class="container">
   <!-- logo -->
-	<div class="nav__brand borders">
+	<div class="nav__brand">
   	<a class="logo" href="#"><img src="https://i.lensdump.com/i/AoN8io.png"></a>
 	</div>
  		<!-- Navbar links -->
-    <ul class="nav__list borders">
+    <ul class="nav__list">
 			<li class="nav__list-item work-link">
-        <a href="#">Work</a>
+        <a href="index.html#work-section">Work</a>
       </li>
       <li class="nav__list-item contact-link">
         <a href="#">Contact</a>
@@ -63,7 +63,7 @@
 		<h1 class="intro">
 		Hey. I’m John Doe, a<a href="#" class="intro__link"> web designer</a> and
 			<a href="#" class="intro__link">developer</a> living in Turku, Finland.
-		This page acts as my <a href="#" class="intro__link">portfolio</a> and a way to reach me.
+		This page acts as my <a href="#" class="intro__link">portfolio</a> and a way to reach me
 		</h1>
 		
 		
@@ -80,55 +80,75 @@
 	</div>
 </div>
 	
-<!-- worksection -->
-<div class="container">
-	<h2 id="work-section" class="secondary-header">My Work</h2>
-</div>
-	<div class="work-container">
-		<ul class="work__list">
-			<li class="work__list-item">
-				<a class="work__list-item-link" href="project01.html">
-					<h2 class="work-title">A single page commercial webpage -template</h2>
-					<span class="work-detail work-role">Development, Design, UI</span>
-					<span class="work-detail work-company">Own Project</span>				
-					<span class="work-detail work-date">2018</span>
-				</a>
-			</li>
-					<li class="work__list-item">
-				<a class="work__list-item-link" href="#work-section">
-					<h2 class="work-title">Coming Soon!</h2>
-					<span class="work-detail work-role">---</span>
-					<span class="work-detail work-company">---</span>				
-					<span class="work-detail work-date">---</span>
-				</a>
-			</li>
-					<li class="work__list-item">
-				<a class="work__list-item-link to-another-page" href="#work-section">
-					<h2 class="work-title">Coming Soon!</h2>
-					<span class="work-detail work-role">---</span>
-					<span class="work-detail work-company">---</span>				
-					<span class="work-detail work-date">---</span>
-				</a>
-			</li>
-					<li class="work__list-item">
-				<a class="work__list-item-link" href="#work-section">
-					<h2 class="work-title">Coming Soon!</h2>
-					<span class="work-detail work-role">---</span>
-					<span class="work-detail work-company">---</span>				
-					<span class="work-detail work-date">---</span>
-				</a>
-			</li>
-					<li class="work__list-item">
-				<a class="work__list-item-link" href="#work-section">
-					<h2 class="work-title">Coming Soon!</h2>
-					<span class="work-detail work-role">---</span>
-					<span class="work-detail work-company">---</span>				
-					<span class="work-detail work-date">---</span>
-				</a>
-			</li>
-		</ul>
-	</div>
 
+
+	
+	<!-- project-info -->
+<section>
+	<div class="container">
+		<div class="project-hero" style="">
+			<header class="hero-header">
+				<h1 class="project-label">A single page commercial webpage -template</h1>
+				<h2 class="project-title">Commercial website with a fullscreen jumbotron</h2>
+				
+			</header>
+			
+		</div>
+		<div class="inline-image">
+			<img src="https://i.lensdump.com/i/Af57uF.png">
+			
+		</div>
+		
+	</div>
+	<div class="project-intro">
+		<div class="container">
+			<div class="lede-content">
+				<p class="project-label">About This Project</p>
+				<p class="lede">Wanted to make minimalist yet flashy one page website. Tried to introduce myself to jquery and bootstrap -libraries during this exercise-project. Had lot of fun with it.</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="project-step">
+		<div class="container">
+			<div class="inline-image">
+				<img src="https://i.lensdump.com/i/Af5psr.png">
+				
+			</div><div class="step-content">
+			<p class="step-body">
+				Used a lot of bright colors yet keeping it tasteful and not too tacky. The page is ofcourse fully responsive and works good on mobile.
+			</p>
+				<p class="lede">Take a better look at the project at <a target="blank" href="https://codepen.io/Jondosse/pen/MZLYvv">Codepen</a>.
+				</p>
+			
+			</div>
+			
+		</div>
+		
+		
+		
+	</div>
+	
+	
+	</section>
+
+	
+	<div class="container">
+		<div class="back-button-container">
+					<a href="index.html">
+		<div class="back-button">
+			<p>Back</p>
+			<!--
+			<div class="arrow-circle">
+				<i class="fas fa-angle-right"></i>
+			</div>
+				-->
+		</div>
+						</a>
+	</div>
+	</div>
+	
 	
 	<div class="container">
 	<h2 id="contact-form" class="secondary-header">Contact me.  <span class="contact__flavor">  Or just say Hi.</span></h2>

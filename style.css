@@ -7,7 +7,6 @@
     vertical-align: baseline;
 }
 
-
 .borders{
 	border: 0px solid #5d5d5d3d;;
 }
@@ -64,13 +63,15 @@ nav {
 }
 
 
-.container{
-	display: flex;
-	width: 90%;
-	max-width: 1400px;
-	margin-right: auto;
-	margin-left: auto;
-	align-items: center;
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 90%;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .nav__brand{
@@ -191,6 +192,33 @@ nav {
 }
 
 .contact-button:hover{
+	color: #ffffff;
+	background-color: #2588c2;
+}
+
+.back-button{
+	background-color: #ffffff;
+	height: 40px;
+	width: 125px;
+	border-radius: 30px;
+	color: #ffffff;
+	align-items: center;
+  display: flex;
+	justify-content:center;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+	margin: 20px 0 5px 0;
+	transition: .25s all ease;
+	border: 1px solid #aad4f5;
+	font-weight: 600;
+  letter-spacing: 0.7px;
+	color: #2588c2;
+}
+
+.back-button-container{
+	margin: auto;
+}
+
+.back-button:hover{
 	color: #ffffff;
 	background-color: #2588c2;
 }
@@ -467,9 +495,122 @@ img{
     user-select: none;
 }
 
+.project-hero {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3em;
+	justify-content: center;
+}
 
+.hero-header {
+    margin: auto 5% auto 0;
+    max-width: 640px;
+}
 
+.project-label {
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
 
+.project-title {
+    letter-spacing: -1.5px;
+    line-height: 1.7;
+    font-size: 2.8rem;
+    font-weight: 400;
+}
 
+@media screen and (min-width: 768px){
+.project-hero {
+    min-height: 300px;
+}
+.project-title {
+    font-size: 3.8rem;
+}
+}
+
+.inline-image{
+}
+
+.inline-image img{
+	width: 1440px;
+	max-width: 100%;
+}
+
+.project-intro {
+    padding: 3em 0 2em;
+    background: #fff;
+}
+
+@media screen and (min-width: 768px){
+.project-intro {
+    padding: 7em 0 4em;
+}
+}
+
+.lede-content {
+    margin: auto;
+    max-width: 640px;
+    font-size: 2.8rem;
+    letter-spacing: -.5px;
+}
+
+.lede {
+    line-height: 1.7;
+    font-size: 1.8rem;
+}
+
+@media screen and (min-width: 768px){
+.lede {
+    font-size: 2.2rem;
+}
+} 
+
+.project-step {
+    padding: 2em 0 0;
+    background: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+.project-step {
+    padding: 4em 0 0;
+}
+}
+
+.step-content {
+    padding: 2em 0 1em;
+    text-align: left;
+    max-width: 740px;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px){
+.step-content {
+    padding: 8em 0 4em;
+}
+}
+
+.step-body {
+    margin-bottom: .5em;
+    letter-spacing: -.5px;
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 768px){
+.step-body {
+    font-size: 2.2rem;
+}
+}
+
+.lede a, .lede a:visited, .lede a:active{
+    color: #2594d4;
+}
+
+.lede a:hover{
+	color: #5d5d5d; !important;
+}
 
 
