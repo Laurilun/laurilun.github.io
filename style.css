@@ -106,7 +106,7 @@ nav {
 	color: inherit !important;
 }
 
-.intro__link. .intro__link:visited, .intro__link:active{
+.intro__link, .intro__link:visited, .intro__link:active{
 	color: blue !important;
 }
 
@@ -461,6 +461,7 @@ input:focus, textarea:focus {
 
 .text-trans{
   font-size: 2.5rem;
+  animation: tracking-in-expand 1s;
   -webkit-animation: tracking-in-expand 1s;
 }
 
@@ -530,8 +531,6 @@ img{
 }
 }
 
-.inline-image{
-}
 
 .inline-image img{
 	width: 1440px;
@@ -609,7 +608,7 @@ img{
 }
 
 .lede a:hover{
-	color: #5d5d5d; !important;
+	color: #5d5d5d !important;
 }
 
 
