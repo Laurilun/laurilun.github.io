@@ -7,6 +7,10 @@
     vertical-align: baseline;
 }
 
+::selection {
+    background: #b9e0fb;
+  }
+
 .borders{
 	border: 0px solid #5d5d5d3d;;
 }
@@ -224,14 +228,14 @@ nav {
 }
 
 
-.arrow-circle{
-	border-radius: 50%;
-	height: 25px;
-	width: 25px;
-	background-color: #075785;
-	margin-left: 10px;
-	text-align: center;
-	color: #ffffff !important;
+.arrow-circle {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: #7caecc;
+    margin-left: 10px;
+    text-align: center;
+    color: #ffffff !important;
 }
 
 .side-email{
@@ -453,7 +457,7 @@ input:focus, textarea:focus {
 
 .email-address{
 	margin: 20px 0 0 7px;
-	font-size: 2rem;
+	font-size: 2rem !important;
 	color: #0097de;
 }
 
@@ -489,6 +493,9 @@ input:focus, textarea:focus {
 	#contact-form {
     margin-top: 60px;
 }
+    .back-button-smaller{
+        margin: 0 0 20px 0 !important;
+    }
 }
 
 img{
@@ -611,4 +618,13 @@ img{
 	color: #5d5d5d !important;
 }
 
+.to-left{
+    margin: initial;
+}
 
+.back-button-smaller {
+    width: 40px;
+    border: 2px solid #aad4f5;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    margin: 0;
+}
