@@ -1,5 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
 
 /*
 	Dopetrope by HTML5 UP
@@ -88,10 +90,13 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	@media screen and (max-width: 1280px){
+	
 	body {
-		background: #252122;
+		background: #051014;
 		background-image: url("images/bg02.png");
 	}
+}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -105,7 +110,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro';
+		font-family:'Epilogue', sans-serif,'Source Sans Pro', Arial, Helvetica, sans-serif;
 		font-weight: 300;
 		color: #5d5d5d;
 		font-size: 14pt;
@@ -1805,6 +1810,7 @@ input, select, textarea {
 
 			ul.contact li p {
 				margin: 0;
+				padding-left: 2em;
 			}
 
 			ul.contact li:first-child {
@@ -2071,7 +2077,7 @@ input, select, textarea {
 /* Header */
 
 	#logo {
-		width:45%;
+		width:40%;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -2085,7 +2091,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#logo {
-			width: 38%;
+			width: 42%;
 		}
 
 	}
@@ -2093,7 +2099,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		#logo {
-			width: 55%;
+			width: 65%;
 		}
 
 	}
@@ -2101,7 +2107,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		#logo {
-			width: 70%;
+			width: 90%;
 		}
 
 	}
@@ -2648,12 +2654,12 @@ input, select, textarea {
 						font-size: 18px;
 						color: #fff;
 						text-align: center;
-						background: rgba(150, 150, 150, 0.75);
+						background: rgba(5, 16, 20, 0.75);
 						border-radius: 5px;
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #969696;
+						background-color: #051014;
 					}
 
 			#navPanel {
@@ -3008,11 +3014,16 @@ iframe{
 }
 
 
+.long-link{
+	font-size: 65%;
+}
+
+
+
 
   
 
   div.gallery {
-	border-bottom: 1px solid #ccc;
 	transition-duration: 250ms;
   }
   
@@ -3025,33 +3036,8 @@ iframe{
 	height: auto;
   }
   
-  div.desc {
-	padding: 15px;
-	text-align: center;
-  }
+
   
-  * {
-	box-sizing: border-box;
-  }
-  
-  .responsive {
-	padding: 0 6px;
-	float: left;
-	width: 19.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-	.responsive {
-	  width: 49.99999%;
-	  margin: 6px 0;
-	}
-  }
-  
-  @media only screen and (max-width: 500px) {
-	.responsive {
-	  width: 100%;
-	}
-  }
   
   .clearfix:after {
 	content: "";
