@@ -1,6 +1,4 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
 
 /*
@@ -94,7 +92,6 @@ input, select, textarea {
 	
 	body {
 		background: #051014;
-		background-image: url("images/bg02.png");
 	}
 }
 
@@ -110,9 +107,9 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family:'Epilogue', sans-serif,'Source Sans Pro', Arial, Helvetica, sans-serif;
-		font-weight: 300;
-		color: #5d5d5d;
+		font-family:'Epilogue', sans-serif, Arial, Helvetica;
+		font-weight: 400;
+		color: #181818;
 		font-size: 14pt;
 		line-height: 1.75em;
 	}
@@ -163,7 +160,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #d52349;
+		color: #8e1009;
 		text-decoration: underline;
 	}
 
@@ -1625,7 +1622,7 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d52349;
+		background: #8e1009;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -1643,7 +1640,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: #8e1009;
 		}
 
 		input[type="button"]:active,
@@ -1651,7 +1648,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #c51349;
+			background: #8e1009;
 		}
 
 		input[type="button"].alt,
@@ -1840,7 +1837,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 1.3em;
-			background-color: #d52349;
+			background-color: #8e1009;
 			height: 3.5em;
 			text-align: center;
 			color: #fff;
@@ -1855,7 +1852,7 @@ input, select, textarea {
 				position: absolute;
 				bottom: 0;
 				right: -1.2em;
-				border-left: solid 1.25em #d52349;
+				border-left: solid 1.25em #8e1009;
 				border-top: solid 1.8em transparent;
 				border-bottom: solid 1.8em transparent;
 			}
@@ -1956,11 +1953,11 @@ input, select, textarea {
 					}
 
 				ul.social li a.fa-dribbble {
-					background: #c4376b;
+					background: #8e1009;
 				}
 
 					ul.social li a.fa-dribbble:hover {
-						background: #d4477b;
+						background: #8e1009;
 					}
 
 				ul.social li a.fa-linkedin {
@@ -1980,11 +1977,11 @@ input, select, textarea {
 					}
 
 				ul.social li a.fa-google-plus {
-					background: #da2713;
+					background: #8e1009;
 				}
 
 					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
+						background: #8e1009;
 					}
 
 /* Icons */
@@ -2027,7 +2024,7 @@ input, select, textarea {
 		.icon.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
+			background-color: #8e1009;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -2047,7 +2044,7 @@ input, select, textarea {
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #d52349;
+				border-top: solid 2em #8e1009;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
@@ -2250,7 +2247,7 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #8e1009;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -2318,7 +2315,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #f7f7f7;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2328,14 +2325,12 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
-			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #f7f7f7;
 		}
 
 /* Footer */
@@ -2353,8 +2348,6 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
-			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
 		}
@@ -2684,7 +2677,6 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
@@ -3014,30 +3006,30 @@ iframe{
 	font-size: 65%;
 }
 
+.small-spacing{
+	word-spacing: -2px;
+}
 
-  
 
-  div.gallery {
+
+div.gallery {
 	transition-duration: 250ms;
-  }
+}
   
-  div.gallery:hover {
+div.gallery:hover {
 	opacity: 0.8;
-  }
+}
   
-  div.gallery img {
+div.gallery img {
 	width: 100%;
 	height: auto;
-  }
+}
   
-
-  
-  
-  .clearfix:after {
+.clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+}
 
 
 
