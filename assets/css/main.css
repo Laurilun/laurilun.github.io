@@ -2973,12 +2973,30 @@ input, select, textarea {
     z-index: 99999 !important;
     width: 30px;
     height: 25px;
-	opacity: 0.5;
+	opacity: 0.55;
 	transition: all .5s;
 }
 
+@media screen and (max-width: 736px) {
+
+	.flag-icon {
+		width: 25px;
+		height: 23px;
+		top: 8px;
+		right: 8px;
+	}
+}
+
+
+
 .english{
 	background: url("images/english.png");
+	background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.finnish{
+	background: url("images/finnish.png");
 	background-size: auto 100%;
     background-repeat: no-repeat;
 }
@@ -3030,9 +3048,4 @@ div.gallery img {
 	display: table;
 	clear: both;
 }
-
-
-
-
-
 
