@@ -2973,7 +2973,7 @@ input, select, textarea {
     z-index: 99999 !important;
     width: 30px;
     height: 25px;
-	opacity: 0.55;
+	opacity: 0.6;
 	transition: all .5s;
 }
 
@@ -3035,6 +3035,14 @@ iframe{
 	}
 	ul.contact li h3{
 		font-size: 0.9em;
+	}
+}
+
+
+@media screen and (max-width: 360px) {
+
+	.small-spacing {
+		font-size: 0.70em;
 	}
 }
 
