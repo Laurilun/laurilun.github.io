@@ -3024,8 +3024,18 @@ iframe{
 	font-size: 65%;
 }
 
-.small-spacing{
-	word-spacing: -2px;
+
+@media screen and (max-width: 420px) {
+
+	.small-spacing {
+		font-size: 0.87em;
+	}
+	ul.contact li p{
+		padding-left: 0em;
+	}
+	ul.contact li h3{
+		font-size: 0.9em;
+	}
 }
 
 
